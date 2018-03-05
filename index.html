@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>AjaxJsonVezba!</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="loading"></div>
+				<div class="jumbotron">
+					<div class="jumbotron-title ">
+						<h1 >My App</h1>
+					</div>
+				</div>
+				<nav class="nav navbar-default ">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="row">
+							<ul class="nav navbar-nav ">
+								<li class="active" ><a  href="http://mysafeinfo.com/api/data?list=bestnovels&format=json">Books  </a></li>
+								<li><a href="http://mysafeinfo.com/api/data?list=presidents&format=json">Presidents</a></li>
+								<li><a href="http://mysafeinfo.com/api/data?list=elements&format=json">Elements</a></li>
+								<li><a href="http://mysafeinfo.com/api/data?list=us_bestitjobcities2015&format=json">Best US City for IT jobs</a></li>
+								<li><a  href="http://mysafeinfo.com/api/data?list=nflsuperbowls&format=json">NFL Superbawl Championes</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<h2 class="page-header title">Books</h2>
+					<div class="row">
+						<div class="col-lg-12">
+							<table class="table">
+								<thead>
+									<tr id="head-tr">
+										
+									</tr>
+								</thead>
+								<tbody id="tbody">
+									
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
